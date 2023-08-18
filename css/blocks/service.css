@@ -1,0 +1,55 @@
+.service {
+    margin: 0 auto;
+    width: 1140px;
+    margin-bottom: 100px;
+}
+
+.service h3 {
+    font-size: 36px;
+    line-height: 40px;
+    color: #4e4e4e;
+    font-weight: 400;
+    font-family: 'font-Light';
+    text-align: center;
+}
+
+.service>ul {
+    list-style-type: none;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.service>ul li {
+    display: inline-block;
+    border: 1px solid #ebebeb;
+    width: 180px;
+    padding-top: 28px;
+    padding-bottom: 32px;
+    margin-right: -5px;
+    font-size: 14px;
+    line-height: 42px;
+    color: #717171;
+    font-weight: 400;
+    font-family: 'font-Light';
+}
+
+.service>ul li:hover {
+    background-color: #18cfba;
+    color: #fff;
+    cursor: pointer;
+}
+
+.service img {
+    width: 190px;
+    float: left;
+    margin-right: 21px;
+}
+
+.service p {
+    font-size: 14px;
+    line-height: 24px;
+    color: #777777;
+    font-weight: 300;
+    font-family: "font-Light";
+    text-align: left;
+}

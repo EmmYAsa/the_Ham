@@ -1,0 +1,19 @@
+.last-element {
+    height: 108px;
+    background-color: #22353f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.last-element p {
+    font-size: 14px;
+    line-height: 26px;
+    color: #aeaeae;
+    font-weight: 300;
+    font-family: 'font-Light';
+}
+
+.last-element p span{
+    color: #18cfab;
+}

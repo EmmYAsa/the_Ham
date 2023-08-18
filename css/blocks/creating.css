@@ -1,0 +1,99 @@
+.creating {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 70px;
+    grid-row-gap: 100px;
+}
+
+.container.container-page h3 {
+    font-size: 36px;
+    line-height: 40px;
+    color: #4e4e4e;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+.creating h4 {
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    color: #717171;
+    font-weight: 700;
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+.creating p {
+    width: 290px;
+    font-size: 14px;
+    color: #777777;
+    font-weight: 300;
+    font-family: "Montserrat";
+}
+
+.creating article h4::before {
+    background-image: url(../../img/sprite_icon.png);
+    margin-right: 20px;
+    content: "";
+    display: inline-block;
+}
+
+.creating article:nth-child(1) h4::before {
+    width: 25px;
+    height: 34px;
+    background-position: -5px -37px;
+}
+
+.creating article:nth-child(1) h4 {
+    color: #18cfab;
+}
+
+.creating article:nth-child(2) h4::before {
+    width: 27px;
+    height: 27px;
+    background-position: -5px -81px;
+}
+
+.creating article:nth-child(3) h4::before {
+    width: 28px;
+    height: 28px;
+    background-position: -5px -118px;
+}
+
+.creating article:nth-child(4) h4::before {
+    width: 22px;
+    height: 30px;
+    background-position: -5px -156px;
+}
+
+.creating article:nth-child(5) h4::before {
+    width: 34px;
+    height: 22px;
+    background-position: -5px -196px;
+}
+
+.creating article:nth-child(6) h4::before {
+    width: 24px;
+    height: 24px;
+    background-position: -5px -228px;
+}
+
+.creating article:nth-child(7) h4::before {
+    width: 20px;
+    height: 35px;
+    background-position: -5px -262px;
+}
+
+.creating article:nth-child(8) h4::before {
+    width: 26px;
+    height: 24px;
+    background-position: -5px -307px;
+}
+
+.creating article:nth-child(9) h4::before {
+    width: 27px;
+    height: 22px;
+    background-position: -5px -341px;
+}

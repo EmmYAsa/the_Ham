@@ -1,0 +1,46 @@
+.ready {
+    background: url(../../img/Transperent\ BG.png) no-repeat center;
+    background-size: cover;
+    height: 472px;
+}
+
+.ready h3 {
+    padding-top: 130px;
+    margin: 0;
+    font-size: 40px;
+    line-height: 40px;
+    color: #18cfab;
+    font-weight: 700;
+    font-family: "font-ExtraBold";
+    text-align: center;
+}
+
+.ready p {
+    font-size: 16px;
+    line-height: 40px;
+    color: #d8d8d8;
+    font-weight: 400;
+    font-family: "font-ExtraBold";
+    text-align: center;
+    margin-top: 36px;
+}
+
+.ready section{
+    display: flex;
+    justify-content:center ;
+}
+
+.ready a{
+    display: flex;
+    justify-content:center ;
+    width: 166px;
+    height: 61px;
+    line-height: 61px;
+    background-color: #18cfab;
+    font-family: 'font-ExtraBold';
+    color:#fff;
+    border-radius: 5px;
+    border-top:6px solid #fff;
+    margin-top: 11.96%;
+    margin-top: 79px;
+}
